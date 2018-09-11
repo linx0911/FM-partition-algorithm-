@@ -1,1 +1,1 @@
-# FM-partition-algorithm-
+# FM 2-way Partition Algorithm
