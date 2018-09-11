@@ -1,0 +1,18 @@
+How to compile my program:
+  Use Makefile in this folder. Enter the following command:
+  $ make
+  After entering the command, the executable file, which is named FM_Partitioner, will be generated into the bin folder.
+  If you want to remove this executable file in bin folder, you can enter this command:
+  $ make clean 
+  
+How to Run FM_Partitioner
+  Usage: ./<exe> -c <cells>  -n <nets> -o <output file name>
+  e.g.
+  If you are still in the src folder, please enter the following command:
+  $ ./../bin/FM_Partitioner -c ../testcases/p2-1.cells -n ../testcases/p2-1.nets -o p2-1.out
+  And the output file, which is named p2-1.out, will be generated into the output folder.  
+
+After running my program:
+  The results of parameter analyzer will be showed on the screen.
+  Moreover, I also show the number of cells and nets, the minimum cutsize, and the runtime about my program.
+  You can find the each result in the output folder.
